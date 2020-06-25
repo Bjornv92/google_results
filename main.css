@@ -86,4 +86,55 @@ nav button {
     border-bottom: 3px solid #386bc2;
  }
 
+.results-section {
+    width: 50%;
+    margin-left: 20%;
+}
 
+.result {
+    margin-bottom: 40px;
+}
+
+.result .link {
+    font-size: 0.85rem;
+    margin-bottom: 0;
+}
+
+.result .link span {
+    color: #888;
+}
+
+.result .link a {
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+.result-header {
+    font-size: 1.2rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.result-header a {
+    text-decoration: none;
+}
+
+.result-header a:hover {
+    text-decoration: underline;
+}
+
+.site-desc {
+    font-size: 0.9rem;
+    width: 100%;
+    margin-top: 5px;
+}
+
+.date {
+    color: #888;
+}
+
+.result:first-of-type {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 10px;
+}
